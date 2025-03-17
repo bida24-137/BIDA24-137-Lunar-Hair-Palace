@@ -21,7 +21,7 @@
   text-align: left;
 }
 
-#small words {
+.text-overlay2 {
   position: absolute;
   top: 55%;
   left: 25%;
