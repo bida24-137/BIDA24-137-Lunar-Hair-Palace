@@ -32,7 +32,7 @@
   text-align: left;
 }
 
-.button:hover {
+#myButton:hover {
   position: absolute;
   top: 45%;
   right: 35%;
