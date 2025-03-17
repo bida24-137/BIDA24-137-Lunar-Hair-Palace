@@ -116,3 +116,7 @@ div.desc {
   padding: 40px;
   text-align: left;
 }
+
+#theBox {
+  background-color: #b4b4b4;
+}
