@@ -100,3 +100,77 @@ a:hover {
   font-weight: bold;
 }
 
+/* Form Section */
+.contact-form {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+.form-group.full-width input,
+.form-group.full-width select,
+.form-group.full-width textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Appointment Time Inputs */
+.time-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.time-inputs input,
+.time-inputs select {
+    width: 30%;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #d35400;
+}
