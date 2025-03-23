@@ -91,3 +91,12 @@ a:hover {
 #theBox {
   background-color: #b4b4b4;
 }
+
+.contact-title h1{
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  font-size: 48px;
+  font-weight: bold;
+}
+
