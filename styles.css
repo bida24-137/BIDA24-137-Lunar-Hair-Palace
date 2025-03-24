@@ -94,7 +94,7 @@ a:hover {
 
 .contact-title h1{
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
   position: relative;
   font-size: 48px;
   font-weight: bold;
@@ -103,6 +103,7 @@ a:hover {
 /* Form Section */
 .contact-form {
     background-color: #1a1a1a;
+    opacity: 0.5;
     padding: 40px;
     display: flex;
     justify-content: center;
