@@ -61,20 +61,62 @@
 </div>
 </div>
 </nav>
+
+<div class="contact-title">
+  <h1>CONTACT US</h1>
+</div>
 </header>
+
+<h6>Dear valued customer,<br>
+Thank you for choosing Lunar Hair Palace. Your feedback is important to us. Please complete this brief survey to help us understand how we can better 
+serve you in the future.</h6>
 
 <form action="thanks.html"> 
   <fieldset> 
-    <legend>Personal information:</legend>
-      First name:<br> 
-       <input type="text" name="firstname"><br> 
-      Last name:<br> 
+    <legend>Personal Information</legend>
+      First name:
+       <input type="text" name="firstname">
+      Last name:
        <input type="text" name="lastname"><br>
 
-       <input type="radio" name="gender" value="male" checked> Male<br> 
-       <input type="radio" name="gender" value="female"> Female<br> 
-       <input type="radio" name="gender" value="other"> Other<br>
-       <input type="submit" value="Submit">
+      Phone:
+       <input type="number" name="phonenumber">
+      Email:
+       <input type="email" name="email"><br>
   </fieldset>
+
+  <fieldset>
+    <legend>Service Details</legend>
+      Date of service:
+       <input type="datetime-local" name="date">
+      Service Representative:
+       <input type="text" name="name"><br>
+      Type of Services:
+       <input type="radio" name="service" value="Haircut">
+       <input type="radio" name="service" value="Hairstyle">
+       <input type="radio" name="service" value="Haircolour">
+       <input type="radio" name="service" value="Other">
+  </fieldset>
+
+  <fieldset>
+    <legend>Questionnaire</legend>
+      How would you rate the overall quality of the service?
+       <input type="radio" name="answer" value="Very satisfied">
+       <input type="radio" name="answer" value="Satisfied">
+       <input type="radio" name="answer" value="Neutral">
+       <input type="radio" name="answer" value="Dissatisfied">
+       <input type="radio" name="answer" value="Very dissatisfied"><br>
+
+      How satisfied are you with the professionalism of our staff?
+      <input type="radio" name="answer" value="Very satisfied">
+       <input type="radio" name="answer" value="Satisfied">
+       <input type="radio" name="answer" value="Neutral">
+       <input type="radio" name="answer" value="Dissatisfied">
+       <input type="radio" name="answer" value="Very dissatisfied"><br>
+ </fieldset>
+  
+       <input type="submit" value="Submit">
+ 
+  
 </form>
 </body>
