@@ -179,3 +179,7 @@ textarea {
 .submit-btn:hover {
     background-color: #d35400;
 }
+
+.fieldset {
+    justify-content: space-around;
+}
