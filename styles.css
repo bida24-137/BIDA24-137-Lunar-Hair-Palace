@@ -181,7 +181,7 @@ textarea {
 }
 
 .fieldset {
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #submitbutton {
@@ -195,4 +195,8 @@ textarea {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+h6 {
+  text-decoration: underline;
 }
