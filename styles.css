@@ -17,7 +17,8 @@ button {
 
 .full-background {
   width: 100vw;              
-  height: 100vh;             
+  height: 100vh;  
+  background-image: url('image1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
