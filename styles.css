@@ -17,14 +17,18 @@ button {
 
 image-container { 
   text-align: right;
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
 }
 
 image-container img {
-  width:500px;
-  height:600px;
+  width:100%;
+  height:auto;
 }
 
 body {
-  background-color: rgb (255, 130, 170);
+  background-color: brown;
+  margin: 0;
+  padding: 0;
 }
