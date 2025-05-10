@@ -27,6 +27,9 @@ image-container img {
   height:auto;
 }
 
+.mt-3 {
+  text-align: right;
+}
 body {
   background-color: black;
   margin: 0;
