@@ -50,6 +50,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  background-color: #f4f4f4;
+  height: 20vh; /* Full viewport height */
+  background-color: #9c7050;
 }
