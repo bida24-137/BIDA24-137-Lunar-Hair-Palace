@@ -17,7 +17,7 @@ button {
 
 image-container { 
   text-align: right;
-  margin: 0px;
+  margin: 0;
   padding: 0;
   width: 100%;
 }
@@ -146,6 +146,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: #9c7050;
 }
 
 * {
