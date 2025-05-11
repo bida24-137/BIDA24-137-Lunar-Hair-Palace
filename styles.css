@@ -71,17 +71,8 @@ body {
   z-index: 0;
 }
 
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
-}
-
 .form-overlay {
+  position: absolute;
   background-color: rgba (0, 0, 0, 0.85); /* semi-transparent white */
   padding: 2 rem;
   border-radius: 15 px;
