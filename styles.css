@@ -176,3 +176,8 @@ div.desc {
   display: table;
   clear: both;
 }
+
+h2 {
+  text-align: center;
+  colour: #9c7050;
+}
