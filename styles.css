@@ -71,50 +71,6 @@ body {
   z-index: 0;
 }
 
-.form-overlay {
-  position: absolute;
-  background-color: rgba (0, 0, 0, 0.85); /* semi-transparent white */
-  padding: 2 rem;
-  border-radius: 15 px;
-  max-width: 600 px;
-  width: 90 %;
-  box-shadow: 0 0 20 px rgba (0,0,0,0.3);
-}
-
-.form-group {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.form-group.full-width,
-textarea,
-select {
-  width: 100%;
-}
-
-input,
-select,
-textarea {
-  flex: 1;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  width: 100%;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-.time-inputs {
-  display: flex;
-  gap: 0.5rem;
-  flex: 1;
-}
-
 .submit-btn {
   padding: 0.75rem;
   background-color:  #9c7050
@@ -181,4 +137,11 @@ div.desc {
 h2 {
   text-align: center;
   colour: #9c7050;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
