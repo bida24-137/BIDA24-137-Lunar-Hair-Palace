@@ -202,10 +202,13 @@ input[type=submit] {
   cursor: pointer;
 }
 
-div {
+div.transbox {
+  border: 1px solid black;
   backgrond-color: #9c7050;
   background-radius: 5px;
   padding: 20px;
+  margin: 30px;
+  opacity:0.6;
 }
 
 .fa {
