@@ -201,3 +201,9 @@ input[type=submit] {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+div {
+  backgrond-color: #9c7050;
+  background-radius: 5px;
+  padding: 20px;
+}
