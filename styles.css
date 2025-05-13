@@ -46,6 +46,31 @@ body {
   z-index: 0;
 }
 
+div {
+  position : relative;
+  text-align: center;
+}
+
+image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+}
+
 .submit-btn {
   padding: 0.75rem;
   background-color:  #9c7050
