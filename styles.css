@@ -144,6 +144,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 input[type=email] {
@@ -151,6 +152,7 @@ input[type=email] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 input[type=tel] {
@@ -158,6 +160,7 @@ input[type=tel] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 select[name=service] {
@@ -165,6 +168,7 @@ select[name=service] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 input[type=date] {
@@ -172,6 +176,7 @@ input[type=date] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 input[type=number] {
@@ -179,6 +184,7 @@ input[type=number] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid #9c7050;
 }
 
 select[name=ampm] {
@@ -186,13 +192,25 @@ select[name=ampm] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+   border: 2px solid #9c7050;
 }
 
 textarea {
   width: 80%;
   height: 150px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid #9c7050;
   border-radius: 4px;
   background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #9c7050;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
