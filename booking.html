@@ -52,10 +52,11 @@
 </div>
 </header>
 
-<div class="main-image"></div>
+<div class="main-image" class="booking-image"></div>
 
 <main>
-
+  
+<div>
 <form action="action_page.php" method="post" target="_blank" accept-charset="UTF-8" 
  enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
   
@@ -63,7 +64,7 @@
    <input type="text" name="last_name" placeholder="Last name">
 
    <input type="email" name="email" placeholder="Email address">
-   <input type="number" name="phone" placeholder="Phone number">
+   <input type="tel" name="phone" placeholder="Phone number">
 
    <select name="service">
     <option value=""disabled selected>Services You'd Like to Book</option>
@@ -87,6 +88,7 @@
 
   <button type="submit" class="submit-btn">Submit</button>
  </form>  
+</div>
 </main>
 
 <footer class="footer">
