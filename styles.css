@@ -73,19 +73,6 @@ body {
   background-color: #5e2e0c;
 }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 div.desc {
   padding: 15px;
   text-align: center;
@@ -243,3 +230,10 @@ div.transbox {
   background: #55ACEE;
   color: white;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-evenly;
