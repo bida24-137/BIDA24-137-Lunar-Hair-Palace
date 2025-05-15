@@ -253,19 +253,42 @@ input[type=submit] {
   color: white;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: space-evenly;
-  align-items: flex-start;
-  }
-  
-.flex-container > div {
-  margin: 10px;
-  align-self: flex-start;
-}
+.product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .product-item {
+      flex: 1 1 calc(25% - 20px); /* 4 in a row with spacing */
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .product-item img {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+    }
+
+    .desc {
+      margin-top: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    @media (max-width: 1024px) {
+      .product-item {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .product-item {
+        flex: 1 1 100%;
+      }
+    }
 
 .container {
   position: relative;
