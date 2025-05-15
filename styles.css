@@ -36,13 +36,13 @@ body {
 }
 
 .main-image {
+  position: relative;
   background-image: url('image1.jpg');
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no repeat;
   background-size: cover;
-  position: relative;
   z-index: 0;
 }
 
@@ -61,6 +61,15 @@ image-text {
 .container {
   position: relative;
 }
+
+.transbox {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
 
 .text-block {
   position: absolute;
