@@ -146,9 +146,49 @@
  <h1>What We Do</h1>
 </div>
 
-</body>
-</html>
+  <div class="slideshow-container">
+    <div class="slide active">
+      <img src="eyelash.jpg" alt="Eyelash Extension">
+      <p>Eyelash Extension</p>
+    </div>
+    <div class="slide">
+      <img src="eyebrow.jpg" alt="Semi Permanent Eyebrow">
+      <p>Semi Permanent Eyebrow</p>
+    </div>
+    <div class="slide">
+      <img src="makeup.jpg" alt="Makeup Art">
+      <p>Makeup Art</p>
+    </div>
+    <div class="slide">
+      <img src="bridal.jpg" alt="Bridal/Wedding Services">
+      <p>Bridal/Wedding Services</p>
+    </div>
+    <div class="slide">
+      <img src="hair.jpg" alt="Cut/Colour/Style">
+      <p>Cut/Colour/Style</p>
+    </div>
+  </div>
 
+  <div class="controls">
+    <button onclick="changeSlide(-1)">Previous</button>
+    <button onclick="changeSlide(1)">Next</button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    function changeSlide(direction) {
+      currentSlide = (currentSlide + direction + slides.length) % slides.length;
+      showSlide(currentSlide);
+    }
+  </script>
 
 <footer class="footer">
 <a href="https://www.facebook.com/share/1CS7TbrdPZ/" class="fa fa-facebook"></a>
