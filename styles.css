@@ -56,7 +56,6 @@ div {
       top: 25%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white;
       font-size: 2rem;
       text-align: center;
       background: rgba(0, 0, 0, 0.6);
@@ -87,6 +86,18 @@ div {
   background-color: black;
   color: white;
   padding-left: 20px;
+}
+
+header-text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+}
+
+header-text2 {
+  font-family: "Brush Script M7", "Lucida Handwriting", Cursive;
+  text-align: left;
+  color: #9c7050;
 }
 
 .submit-btn {
