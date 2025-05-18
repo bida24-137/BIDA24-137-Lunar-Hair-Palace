@@ -2,9 +2,6 @@ p {
   font-family: verdana;
 }
 
-.mt-3 {
-  text-align: right;
-}
 body {
   background-color: black;
   margin: 0;
@@ -56,8 +53,6 @@ div {
       top: 25%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 2rem;
-      text-align: center;
       background: rgba(0, 0, 0, 0.6);
       padding: 20px;
       border-radius: 10px;
