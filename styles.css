@@ -22,8 +22,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh; /* Full viewport height */
+  height: 20vh; 
   background-color: #9c7050;
+}
+
+.contact-title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #9c7050;
+}
+
+.index-text {
+  color: white;
+  font-family: "Times New Roman", Times, serif; 
+  text-align: left;
+}
+
+.index-text1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
 }
 
 .contact-form {
@@ -82,19 +102,19 @@ div {
   padding-left: 20px;
 }
 
-header-text {
+.header-text {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: white;
 }
 
-header-text2 {
+.header-text2 {
   font-family: "Brush Script M7", "Lucida Handwriting", Cursive;
   text-align: left;
   color: #9c7050;
 }
 
-index-text {
+.index-text {
   font-family: "Times New Roman", Times, serif;
   text-align: left;
   color: white;
