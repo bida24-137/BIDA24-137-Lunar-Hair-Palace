@@ -94,6 +94,12 @@ header-text2 {
   color: #9c7050;
 }
 
+index-text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  color: white;
+}
+
 .submit-btn {
   padding: 0.75rem;
   background-color:  #9c7050
