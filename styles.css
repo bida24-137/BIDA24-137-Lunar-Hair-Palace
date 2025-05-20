@@ -383,6 +383,7 @@ div1 {
 }
 
 .info-boxes {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -400,8 +401,9 @@ div1 {
 }
 
 .contact-container {
-      max-width: 1000px;
-      margin: 0 auto;
+  position: absolute;
+  max-width: 1000px;
+  margin: 0 auto;
     }
 
  @media (max-width: 768px) {
