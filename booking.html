@@ -88,45 +88,38 @@
   <button type="submit" class="submit-btn">Submit</button>
   </form>  
 
-  <!-- Confirmation Message -->
-  <p id="confirmationMessage" style="display: none; color: #9c7050; margin-top: 15px;"></p>
+  
  </div>
 </div>
 </main>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("bookingForm");
-    const confirmationMessage = document.getElementById("confirmationMessage");
-
-    form.addEventListener("submit", function (e) {
-      e.preventDefault(); // Prevent actual form submission
-
-      // Collect values
-      const firstName = document.getElementById("first_name").value.trim();
-      const lastName = document.getElementById("last_name").value.trim();
-      const date = document.getElementById("appointment_date").value;
-      const service = document.getElementById("service").value;
-
-      // Basic validation
-      if (!firstName || !lastName || !date || !service) {
-        alert("Please fill in all required fields.");
-        return;
-      }
-
-      const formattedDate = new Date(date).toDateString();
-
-      // Show confirmation
-      confirmationMessage.textContent = `Thank you, ${name}! Your appointment for ${formattedDate} has been booked. See youu Soon!`;
-      confirmationMessage.classList.add("show");
-      confirmationMessage.style.display = "block";
-
-
-      // Optionally clear the form
-      form.reset();
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.container1 form');
+    
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent default form submission
+        
+        // Show confirmation message
+        const confirmationMessage = document.createElement('div');
+        confirmationMessage.className = 'alert alert-success mt-3';
+        confirmationMessage.innerHTML = `
+            <strong>Booking Confirmed!</strong> 
+            We've received your appointment request and will contact you shortly.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        `;
+        
+        // Insert after form
+        form.parentNode.insertBefore(confirmationMessage, form.nextSibling);
+        
+        // Optional: Reset form after submission
+        form.reset();
+        
+        // Optional: Scroll to confirmation message
+        confirmationMessage.scrollIntoView({ behavior: 'smooth' });
     });
-  });
-</script>
+});
+
+</body>
 
 <footer class="footer">
   
