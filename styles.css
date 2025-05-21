@@ -34,18 +34,6 @@ body {
   background-color: #9c7050;
 }
 
-.index-text {
-  color: white;
-  font-family: "Times New Roman", Times, serif; 
-  text-align: left;
-}
-
-.index-text1 {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
