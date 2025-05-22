@@ -260,11 +260,21 @@ input[type=submit] {
 .container2 {
   position: absolute;
   position: center;
-  margin: 20px;
   max-width: 80%;
   padding: 16px;
-  background-color: white;
   opacity: 0.5;
+}
+
+#indextext {
+  color: #9c7050;
+  font-family: Garamond, Times New Roman, Serif;
+  text-align: center;
+}
+
+#indextext {
+  color: white;
+  font-family: Monaco, Courier New, Monospace;
+  text-align: left;
 }
 
 .transbox {
