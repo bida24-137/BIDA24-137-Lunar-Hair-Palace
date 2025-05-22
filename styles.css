@@ -281,7 +281,11 @@ input[type=submit] {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top:100px;
+  padding-top:30px;
+}
+
+#our-gallery {
+  color:#9c7050;
 }
 
 .gallery-col {
@@ -292,18 +296,16 @@ input[type=submit] {
 }
 
 .gallery-col img{
+  height: 300px;
   width: 100%;
   border-radius: 10px;
-}
-
-.gallery-col p{
-  padding: 0;
 }
 
 .gallery-col h3{
   margin-top: 16px;
   margin-bottom: 16px;
-  text-align: left;
+  text-align: center;
+  color: #9c7050;
 }
 
 .transbox {
