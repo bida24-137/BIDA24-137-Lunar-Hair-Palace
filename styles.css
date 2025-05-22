@@ -411,13 +411,14 @@ div1 {
 
 .info-boxes {
   position: absolute;
-  right: 0;
+  right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 30px;
+  width: 350px;
 }
 
 .box {
