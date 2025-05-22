@@ -422,7 +422,6 @@ div1 {
 }
 
 .box {
-  flex: 1 1 calc(50% - 20px);
   background-color: #9c7050;
   color: white;
   padding: 20px;
