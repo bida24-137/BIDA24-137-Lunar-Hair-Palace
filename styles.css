@@ -111,18 +111,6 @@ div {
   padding-left: 20px;
 }
 
-.header-text {
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
-  color: white;
-}
-
-.header-text2 {
-  font-family: "Arial", "Helvetica", Sans-serif;
-  text-align: left;
-  color: #9c7050;
-}
-
 .index-text {
   font-family: "Times New Roman", Times, serif;
   text-align: left;
@@ -268,6 +256,18 @@ input[type=submit] {
   padding: 16px;
   background-color: white;
 }
+
+.container2 {
+  position: absolute;
+  position: center;
+  margin: 20px;
+  max-width: 80%;
+  padding: 16px;
+  height:100vh;
+  background-color: white;
+  opacity: 0.5;
+}
+
 
 .transbox {
   border: 1px solid black;
