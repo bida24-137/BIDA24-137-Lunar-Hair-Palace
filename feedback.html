@@ -74,28 +74,36 @@ serve you in the future.</h6>
 
     <legend>Service Details</legend>
        <input type="datetime-local" name="date">
+  
       Service Representative:
-       <input type="text" name="name"><br>
+       <input list="browsers" name="browser">
+        <datalist id="staff">
+         <option value="Lorato">
+         <option value="Anaya">
+         <option value="Sethunya">
+        </datalist>
+       <input type="submit"><br>
+  
       Type of Services:
        <input type="radio" name="service" value="Haircut"><label for="Haircut">Haircut</label><br>
-       <input type="radio" name="service" value="Hairstyle"><label for="Hairstyle">Hairstyle</label>
-       <input type="radio" name="service" value="Haircolour"><label for="Haircolour">Haircolour</label>
-       <input type="radio" name="service" value="Other"><label for="Other">Other</label>
+       <input type="radio" name="service" value="Hairstyle"><label for="Hairstyle">Hairstyle</label><br>
+       <input type="radio" name="service" value="Haircolour"><label for="Haircolour">Haircolour</label><br>
+       <input type="radio" name="service" value="Other"><label for="Other">Other</label><br>
 
     <legend>Questionnaire</legend>
       How would you rate the overall quality of the service?<br>
-       <input type="radio" name="answer" value="Very satisfied">
-       <input type="radio" name="answer" value="Satisfied">
-       <input type="radio" name="answer" value="Neutral">
-       <input type="radio" name="answer" value="Dissatisfied">
-       <input type="radio" name="answer" value="Very dissatisfied"><br>
+       <input type="radio" name="answer" value="Very satisfied"><label for="Very satisfied">Very satisfied</label><br>
+       <input type="radio" name="answer" value="Satisfied"><label for="Satisfied">Satisfied</label><br>
+       <input type="radio" name="answer" value="Neutral"><label for="Neutral">Neutral</label><br>
+       <input type="radio" name="answer" value="Dissatisfied"><label for="Dissatisfied">Dissatisfied</label><br>
+       <input type="radio" name="answer" value="Very dissatisfied"><label for="Other">Very dissatisfied</label><br>
 
       How satisfied are you with the professionalism of our staff?<br>
-      <input type="radio" name="answer" value="Very satisfied">
-       <input type="radio" name="answer" value="Satisfied">
-       <input type="radio" name="answer" value="Neutral">
-       <input type="radio" name="answer" value="Dissatisfied">
-       <input type="radio" name="answer" value="Very dissatisfied"><br>
+      <input type="radio" name="answer" value="Very satisfied"><label for="Very satisfied">Very satisfied</label>
+       <input type="radio" name="answer" value="Satisfied"><label for="Satisfied">Satisfied</label>
+       <input type="radio" name="answer" value="Neutral"><label for="Neutral">Neutral</label>
+       <input type="radio" name="answer" value="Dissatisfied"><label for="Dissatisfied">Dissatisfied</label>
+       <input type="radio" name="answer" value="Very dissatisfied"><label for="Very dissatisfied">Very dissatisfied</label><br>
   
        <button type="submit" class="submit-btn">Submit</button>
  
