@@ -51,11 +51,6 @@ body {
   z-index: 0;
 }
 
-.text-box {
-  position: absolute;
-  height: 100vh;
-}
-
 .contact-image {
   position: relative;
   background-image: url('image2.jpeg');
